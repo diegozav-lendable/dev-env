@@ -1,0 +1,69 @@
+{
+    "editor.fontSize": 13,
+    "editor.accessibilityPageSize": 12,
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "The Best Theme",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": false,
+        "source.fixAll.eslint": true,
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "editor.fontWeight": "normal",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Dank Mono', Menlo, 'Courier New', monospace",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    // the following elements will be in italic
+                    //   (=Fira Code iScript)
+                    "comment",
+                    "keyword.control.import.ts", // import
+                    "keyword.control.export.ts", // export
+                    "keyword.control.from.ts", // from
+                    // "constant", // String, Number, Boolean…, this, super
+                    "storage.modifier", // static keyword
+                    "storage.type.class", // class keyword
+                    "storage.type.php", // typehints in methods keyword
+                    "keyword.other.new.php", // new
+                    "entity.other.attribute-name", // html attributes
+                    "storage.type",
+                    "variable.language.this",
+                    "support.type.primitive",
+                    "variable.language.super",
+                    "keyword.control.flow",
+                    "keyword.control.trycatch",
+                    "constant.language.boolean",
+                    "constant.numeric",
+                    // "entity.name.type.class", // class names
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json",
+                    "comment.block",
+                    "entity.other.attribute-name.class.css"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "editor.minimap.enabled": false,
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "none",
+    "workbench.editor.showTabs": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "workbench.activityBar.visible": false,
+    "javascript.format.enable": false,
+    "tsimporter.emitSemicolon": false,
+    "eslint.run": "onSave",
+    "eslint.lintTask.options": ". --ext .vue,.ts,.json",
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.format.enable": true,
+    "workbench.statusBar.visible": false,
+}
