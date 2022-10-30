@@ -1,7 +1,7 @@
 {
-    "editor.fontSize": 13,
+    "editor.fontSize": 12,
     "editor.accessibilityPageSize": 12,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
     "workbench.colorTheme": "The Best Theme",
     "editor.codeActionsOnSave": {
         "source.organizeImports": false,
@@ -66,4 +66,9 @@
     "eslint.codeActionsOnSave.mode": "all",
     "eslint.format.enable": true,
     "workbench.statusBar.visible": false,
+    "cucumberautocomplete.steps": [
+        "test/Acceptance/Common/stepsDefinitions.ts",
+        "test/Acceptance/*/*.steps.ts"
+    ],
+    "workbench.iconTheme": "vscode-icons",
 }

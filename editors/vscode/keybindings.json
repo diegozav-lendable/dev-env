@@ -1279,5 +1279,19 @@
         "key": "cmd+d",
         "command": "-editor.action.duplicateSelection",
         "when": "editorHasSelection && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+cmd+1",
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "cmd+d",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus && terminalProcessSupported || terminalFocus && terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "ctrl+shift+5",
+        "command": "-workbench.action.terminal.split",
+        "when": "terminalFocus && terminalProcessSupported || terminalFocus && terminalWebExtensionContributedProfile"
     }
 ]
