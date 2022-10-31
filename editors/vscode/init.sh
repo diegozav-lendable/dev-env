@@ -9,7 +9,8 @@ which code || sudo ln -s  "/Applications/Visual Studio Code.app/Contents/Resourc
 code --install-extension alexkrechik.cucumberautocomplete \
     && code --install-extension k--kato.intellij-idea-keybindings \
     && code --install-extension kohlbachjan.the-best-theme \
-    && code --install-extension vscode-icons-team.vscode-icons
+    && code --install-extension vscode-icons-team.vscode-icons \
+    && code --install-extension eamodio.gitlens
 
 cp "$CURRENT_DIR/settings.json" "$HOME/Library/Application Support/Code/User/"
 cp "$CURRENT_DIR/keybindings.json" "$HOME/Library/Application Support/Code/User/"
